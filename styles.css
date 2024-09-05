@@ -1,0 +1,167 @@
+html {
+    background-color: rgb(237, 241, 241);
+}
+
+.sidebar {
+    display: grid;
+    grid-template-columns: 15vw;
+    grid-template-rows: 100px 50px 50px 50px 50px 50px 100px 50px 50px 50px ;
+    background-color: #3b82f6;
+    color: white;
+    width: 15.5%;
+    height: 100vh;
+    position: absolute;
+    top: 0vh;
+    margin: -0.5%;
+    
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 40vw 5vw 5vw 7vw;
+    grid-template-rows: 60px 60px;
+    position: absolute;
+    top: 0vh;
+    left: 15.5%;
+    width: 84.5%;
+    column-gap: 2vw;
+    box-shadow: 0 2px 5px 0 grey;
+    background-color: white;
+    
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 25vw 25vw 20vw;
+    grid-template-rows: 0.5fr 1fr 0.5fr 0.5fr 1fr;
+    min-height: 500px;
+    position: absolute;
+    top: 15vh;
+    left: 18%;
+    gap: 2%;
+    column-gap: 5%;
+    
+    
+}
+
+p {
+    position: relative;
+    top: 5vh;
+}
+
+#project1 {
+    grid-column-start: 1;
+}
+
+#project3 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+#project4 {
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+#project5 {
+    grid-column-start: 1;
+    grid-row-start: 5;
+}
+
+#project6 {
+    grid-column-start: 2;
+    grid-row-start: 5;
+}
+
+#announcements {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    margin-bottom: 10px;
+    
+}
+
+#trending {
+    grid-column-start: 3;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    margin-top: 10px;
+}
+
+#magnify {
+    height: 5vh;
+}
+
+#bell {
+    height: 4vh;
+    align-self: center;
+    justify-self: center;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#searchbar {
+    width: 30vw;
+    background-color: rgb(211, 209, 209);
+    border-radius: 10px;
+}
+
+#icon {
+    height: 40px;
+    width: 47px;
+    border-radius: 50%;
+    align-self: center;
+    justify-self: center;
+    
+    
+}
+
+#welcome {
+    align-self: center;
+    justify-self: center;
+}
+
+#me {
+    align-self: center;
+    justify-self: center;
+}
+
+button {
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+    background-color: #3b82f6;
+    color: white;
+    
+}
+
+#sidebarbutton {
+    height: 25px;
+    width: 25px;
+}
+
+.sideicon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 2vw;
+}
+
+
+.projects {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 0 rgb(99, 97, 97);
+}
+
+
+
+
+
+
